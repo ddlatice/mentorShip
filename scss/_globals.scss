@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+
+html{
+    font-size:100%;
+    box-sizing:border-box;
+}
+*, *::before, *::after{
+    box-sizing:inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column; /* creates rows out of the elements main and footer */
+    height: 100vh; 
+    margin:0;
+    padding:0;
+    line-height: 1.3;
+    font-size: $font-med;
+    color:$black;
+    font-family: 'Rubik', sans-serif;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color: $blue;
+}
+
+
+
+
+
+//Helper Classes
+
+//Text positioning
+
+.text {
+    &-ac {
+        text-align: center;
+    }
+    &-al{
+        text-align: left;
+    }
+    &-ar {
+        text-align: right
+    }
+}
+
+//List
+
+.list {
+    &-typenone {
+        list-style-type: none;
+    }
+}
+
+//Flexbox
+.flex {
+    display:flex;
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-jc-se {
+        justify-content: space-evenly;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+
+    &-d-col {
+        flex-direction: column;
+    }
+
+    &-d-row {
+        flex-direction: row;
+    }
+}
+
+//Margin
+
+.margin {
+    &-mb {
+        margin-bottom: 10rem;
+    }
+}
+
+//Visibility
+
+.hide-for-mobile {
+    @include breakpoint-down(medium) {
+        display:none;
+    }
+    //hide for tablet and mobile
+}
+
+.hide-for-desktop{
+    //hide for desktop
+    @include breakpoint-up(large) {
+        display:none;
+    }
+}

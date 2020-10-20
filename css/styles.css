@@ -756,7 +756,7 @@ footer .contact-btn {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 514px) {
   .header__container h1 {
     font-size: 2rem;
   }

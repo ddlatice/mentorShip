@@ -756,6 +756,44 @@ footer .contact-btn {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .header__container h1 {
+    font-size: 2rem;
+  }
+  .header__search-container {
+    margin-top: 1rem;
+  }
+  .main__section-one {
+    width: 100%;
+  }
+  .main__partners {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 30px;
+  }
+  .main__section-three {
+    width: 90vw !important;
+  }
+  .main__section-four {
+    width: 90vw !important;
+  }
+  .main__how-left {
+    width: 100%;
+  }
+  .main__how-right {
+    width: 100%;
+  }
+  .main__what-left {
+    width: 100%;
+  }
+  .main__what-right {
+    width: 100%;
+  }
+  footer .footer-container {
+    width: 100% !important;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__container h1 {
     font-size: 2rem;

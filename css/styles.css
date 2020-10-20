@@ -763,6 +763,9 @@ footer .contact-btn {
   body {
     height: 100%;
   }
+  .header .overlay-menu {
+    font-size: 0.5rem;
+  }
   .header__container h1 {
     font-size: 2rem;
   }
@@ -803,6 +806,9 @@ footer .contact-btn {
 @media screen and (max-width: 375px) {
   body {
     height: 100%;
+  }
+  .header .overlay-menu {
+    font-size: 0.5rem;
   }
   .header__container h1 {
     font-size: 2rem;

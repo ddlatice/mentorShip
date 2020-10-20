@@ -673,6 +673,9 @@ footer .contact-btn {
 }
 
 @media screen and (max-width: 1080px) {
+  body {
+    height: 100%;
+  }
   .main__banner-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -756,7 +759,10 @@ footer .contact-btn {
   }
 }
 
-@media screen and (max-width: 514px) {
+@media screen and (max-width: 414px) {
+  body {
+    height: 100%;
+  }
   .header__container h1 {
     font-size: 2rem;
   }
@@ -795,6 +801,9 @@ footer .contact-btn {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    height: 100%;
+  }
   .header__container h1 {
     font-size: 2rem;
   }

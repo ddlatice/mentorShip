@@ -1,5 +1,9 @@
 @media screen 
   and (max-width: 1080px)  { 
+    body {
+        height:100%;
+    }
+
 
     .main__banner-wrapper {
     flex-direction:column;
@@ -75,7 +79,10 @@
 
 
   @media screen 
-  and (max-width: 514px)  { 
+  and (max-width: 414px)  { 
+      body {
+          height:100%;
+      }
 
    .header__container h1 {
         font-size: 2rem;
@@ -137,6 +144,10 @@
 
   @media screen 
   and (max-width: 375px)  { 
+    body {
+        height:100%;
+    }
+
 
    .header__container h1 {
         font-size: 2rem;

@@ -1,4 +1,52 @@
 @media screen 
+  and (max-width: 1980px)  { 
+    body {
+        height:100%;
+        width:100%;
+    }
+
+
+    .main__banner-wrapper {
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.main__banner-inner-right {
+    width:100%;
+
+    a {
+        width:100%;
+    }
+}
+
+
+
+.main__how {
+    flex-direction:column-reverse;
+    align-items:center;
+}
+
+.main__what {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen 
   and (max-width: 1080px)  { 
     body {
         height:100%;
@@ -38,6 +86,10 @@
 @media screen 
   and (max-width: 925px)  { 
 
+
+    body {
+        height:100%;
+    }
     
 
     .main__section-five {
